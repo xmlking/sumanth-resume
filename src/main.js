@@ -1,7 +1,7 @@
 import Alpine from 'alpinejs'
 
-import '../styles/common.scss'
-import '../styles/main.scss'
+import '../styles/common.pcss'
+import '../styles/main.pcss'
 
 import { initDesigner } from './designer'
 

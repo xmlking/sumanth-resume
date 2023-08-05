@@ -19,7 +19,7 @@ body.letter           .sheet { width: 216mm; height: 279mm }
 body.letter.landscape .sheet { width: 280mm; height: 215mm }
 body.legal            .sheet { width: 216mm; height: 356mm }
 body.legal.landscape  .sheet { width: 357mm; height: 215mm }
-
+ 
 /** Padding area **/
 .sheet.padding-10mm { padding: 10mm }
 .sheet.padding-15mm { padding: 15mm }

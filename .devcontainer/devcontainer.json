@@ -17,10 +17,10 @@
 		}
 	},
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "yarn install",
+	"postCreateCommand": "pnpm install",
 	// Start the dev server after the container has started.
 	// The --host argument is needed to expose the app on the browser
-	"postAttachCommand": "yarn dev --host",
+	"postAttachCommand": "pnpm dev --host",
 	// Configure tool-specific properties.
 	"customizations": {
 		"codespaces": {

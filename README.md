@@ -47,7 +47,7 @@ If you edit the `resume.json` file, changes will be reflected in the UI.
 To develop your resume locally on your PC you need:
 - [git](https://git-scm.com/downloads)
 - A recent version of [NodeJS](https://nodejs.org/en)
-- The [`yarn`](https://yarnpkg.com/getting-started/install) package manager
+- The [`pnpm`](https://pnpm.io) package manager
 
 1. Create a new repository using `resume-stack` as template,
     clicking on the green *Use this template* button and then
@@ -64,7 +64,7 @@ To develop your resume locally on your PC you need:
 
 ```bash
 # Run this in a terminal
-yarn
+pnpm dev
 ```
 
 4. Run the development server and click on the link printed in the terminal,
@@ -72,7 +72,7 @@ yarn
 
 ```bash
 # Run this in a terminal
-yarn dev
+pnpm dev
 ```
 
 ![Browser window with the project running](https://raw.githubusercontent.com/lucafaggianelli/resume-stack/main/docs/images/browser-window.png)
